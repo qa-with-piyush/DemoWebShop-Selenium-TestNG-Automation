@@ -1,0 +1,36 @@
+DemoWebShop-Selenium-TestNG-Automation
+│
+├── src/test/java
+│   │
+│   ├── base
+│   │   └── BaseClass.java
+│   │
+│   ├── pages
+│   │   ├── LoginPage.java
+│   │   ├── RegisterPage.java
+│   │   ├── HomePage.java
+│   │   ├── ProductPage.java
+│   │   ├── CartPage.java
+│   │   └── CheckoutPage.java
+│   │
+│   ├── testCases
+│   │   ├── TC001_Register.java
+│   │   ├── TC002_Login.java
+│   │   ├── TC003_SearchProduct.java
+│   │   ├── TC004_AddToCart.java
+│   │   └── TC005_Checkout.java
+│   │
+│   ├── utilities
+│      ├── Listeners.java
+│      └── RandomDataUtil.java
+│
+├── src/test/resources
+│   ├── config.properties
+│   ├── log4j2.properties
+│   └── testdata
+│
+├── Reports
+├── Screenshots
+├── testng.xml
+├── pom.xml
+└── README.md
