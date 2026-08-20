@@ -60,7 +60,6 @@ DemoWebShop-Selenium-TestNG-Automation
 ├── testng.xml
 ├── .gitignore
 └── Structure
-```
 
 Test Scenarios
 
