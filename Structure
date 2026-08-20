@@ -1,36 +1,33 @@
 DemoWebShop-Selenium-TestNG-Automation
 │
-├── src/test/java
-│   │
-│   ├── base
-│   │   └── BaseClass.java
-│   │
-│   ├── pages
-│   │   ├── LoginPage.java
-│   │   ├── RegisterPage.java
-│   │   ├── HomePage.java
-│   │   ├── ProductPage.java
-│   │   ├── CartPage.java
-│   │   └── CheckoutPage.java
-│   │
-│   ├── testCases
-│   │   ├── TC001_Register.java
-│   │   ├── TC002_Login.java
-│   │   ├── TC003_SearchProduct.java
-│   │   ├── TC004_AddToCart.java
-│   │   └── TC005_Checkout.java
-│   │
-│   ├── utilities
-│      ├── Listeners.java
-│      └── RandomDataUtil.java
+├── src
+│   └── test
+│       ├── java
+│       │   ├── base
+│       │   │   ├── EcommerceBase.java
+│       │   │   └── LoginBaseSetup.java
+│       │   │
+│       │   ├── pageObjects
+│       │   │   ├── CheckoutPage.java
+│       │   │   ├── HomePage.java
+│       │   │   ├── LoginPage.java
+│       │   │   ├── ProductPage.java
+│       │   │   └── RegistrationPage.java
+│       │   │
+│       │   ├── testCases
+│       │   │   ├── TC001_Registration.java
+│       │   │   ├── TC002_Login.java
+│       │   │   └── TC003_Product.java
+│       │   │
+│       │   └── utilities
+│       │       ├── Listeners.java
+│       │       └── RandomDataUtils.java
+│       │
+│       └── resources
+│           └── log4j2.properties
 │
-├── src/test/resources
-│   ├── config.properties
-│   ├── log4j2.properties
-│   └── testdata
-│
-├── Reports
-├── Screenshots
-├── testng.xml
+├── .mvn
 ├── pom.xml
-└── README.md
+├── testng.xml
+├── .gitignore
+└── Structure
